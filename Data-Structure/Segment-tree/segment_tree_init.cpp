@@ -12,7 +12,7 @@ void init(int node, int b, int e)
     int mid = (b + e) / 2;
     init(Left, b, mid);
     init(Right, mid + 1, e);
-    tree[node] = tree[Left] + tree[Right];
+    tree[node] = tree[Left] + tree[Right];// This line will work for sum query
 }
 int main()
 {
