@@ -6,4 +6,6 @@ void deletefirstnode()
 
 	firstnode = head;
 	head = head->next;
+	
+	free(firstnode);
 }
