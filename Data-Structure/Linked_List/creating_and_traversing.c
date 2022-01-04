@@ -7,7 +7,6 @@ struct node{
 	struct node *next;
 }*head;
 
-void insert_at_beginning(int data);
 void createlist(int n);
 void displaylist();
 
