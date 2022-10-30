@@ -21,7 +21,7 @@ int main()
 
    int n,m;
    cin>>n>>m;
-   // n is number of nodes and m is number of columns
+   // n is number of nodes and m is number of edges
    int root=-1;
     while(m--){
         ll int  x,y;cin>>x>>y;
