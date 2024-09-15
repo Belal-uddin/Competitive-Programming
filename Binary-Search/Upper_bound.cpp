@@ -1,3 +1,6 @@
+// lower_bound finds the first element that is greater than or equal to the target (≥).
+// upper_bound finds the first element that is strictly greater than the target (>).
+
 #include <iostream>
 #include <vector>
 #include <algorithm> // for upper_bound
@@ -17,4 +20,4 @@ int main() {
     }
 
     return 0;
-}
+ }
